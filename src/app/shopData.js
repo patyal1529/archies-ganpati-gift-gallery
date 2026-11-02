@@ -9,17 +9,17 @@ export const SHOP_INFO = {
   city: "Una, Himachal Pradesh",
   tagline:
     "Una's premier destination for thoughtful gifts, home accents, timepieces, and festive keepsakes for every celebration.",
-  phoneDisplay: "+91 98765 43210", // Kal yahan asli mobile number dalna
-  phoneRaw: "919876543210", // Bina + aur space ke (WhatsApp link ke liye)
+  phoneDisplay: "+91 98167 93506", //  yahan asli mobile number dalna
+  phoneRaw: "919816793506", // Bina + aur space ke (WhatsApp link ke liye)
   email: "ganpatigiftgallery.una@gmail.com", // Kal yahan asli email dalna
-  address: "Main Market, Near Old Bus Stand, Una, Himachal Pradesh - 174303",
+  address: "Shop No 4, Near DAV Sr Sec School, Nangal Road, Durga Colony, Una, Himachal Pradesh - 174303",
   timings: "Open Daily: 9:30 AM – 9:00 PM",
-  instagramUrl: "https://instagram.com/", // Kal yahan shop ka Insta link dalna
+  instagramUrl: "https://instagram.com/", // yahan shop ka Insta link dalna
   instagramHandle: "@archies_ganpati_una",
-  facebookUrl: "https://facebook.com/", // Kal yahan Facebook link dalna
+  facebookUrl: "https://facebook.com/", //  yahan Facebook link dalna
   facebookPage: "Archies Ganpati Gift Gallery Una",
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27225.33407778152!2d76.2483956!3d31.4685026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391adb198180014f%3A0xbf76347093a3aa9a!2sUna%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "https://maps.google.com/maps?q=Shop+No+4+NEAR+DAV+Sr+Sec+SCHOOL+Nangal+Road+Durga+Colony+Una+Himachal+Pradesh+174303&t=&z=16&ie=UTF8&iwloc=&output=embed",
 };
 
 // ============================================================================

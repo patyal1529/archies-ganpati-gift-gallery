@@ -47,12 +47,21 @@ export default async function CategoryDetailPage({ params }) {
             </div>
           </Link>
 
-          <Link
-            href="/#collections"
-            className="bg-rose-50 hover:bg-rose-100 text-[#D91424] border border-rose-200 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-colors"
-          >
-            ← All Categories
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/#collections"
+              className="hidden sm:inline-flex bg-rose-50 hover:bg-rose-100 text-[#D91424] border border-rose-200 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-colors"
+            >
+              ← All Categories
+            </Link>
+            <Link
+              href="/#collections"
+              className="inline-flex items-center gap-1.5 bg-[#D91424] hover:bg-[#b50f1d] text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2.5 rounded-full shadow-md shadow-rose-600/20 transition-all hover:-translate-y-0.5 whitespace-nowrap"
+            >
+              <span>Order Now</span>
+              <span>→</span>
+            </Link>
+          </div>
         </div>
       </header>
 
