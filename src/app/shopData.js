@@ -9,14 +9,14 @@ export const SHOP_INFO = {
   city: "Una, Himachal Pradesh",
   tagline:
     "Una's premier destination for thoughtful gifts, home accents, timepieces, and festive keepsakes for every celebration.",
-  phoneDisplay: "+91 98167 93506", //  yahan asli mobile number dalna
-  phoneRaw: "919816793506", // Bina + aur space ke (WhatsApp link ke liye)
-  email: "ganpatigiftgallery.una@gmail.com", // Kal yahan asli email dalna
+  phoneDisplay: "+91 98167 93506",
+  phoneRaw: "919816793506",
+  email: "ganpatigiftgallery.una@gmail.com",
   address: "Shop No 4, Near DAV Sr Sec School, Nangal Road, Durga Colony, Una, Himachal Pradesh - 174303",
   timings: "Open Daily: 9:30 AM – 9:00 PM",
-  instagramUrl: "https://instagram.com/", // yahan shop ka Insta link dalna
+  instagramUrl: "https://instagram.com/",
   instagramHandle: "@archies_ganpati_una",
-  facebookUrl: "https://facebook.com/", //  yahan Facebook link dalna
+  facebookUrl: "https://facebook.com/",
   facebookPage: "Archies Ganpati Gift Gallery Una",
   mapEmbedUrl:
     "https://maps.google.com/maps?q=Shop+No+4+NEAR+DAV+Sr+Sec+SCHOOL+Nangal+Road+Durga+Colony+Una+Himachal+Pradesh+174303&t=&z=16&ie=UTF8&iwloc=&output=embed",
@@ -32,45 +32,25 @@ export const GIFT_CATEGORIES = [
     subtitle: "Designer & Vintage Timepieces",
     description:
       "Statement pendulum clocks, silent-sweep modern wall clocks, antique station clocks, and bedside alarm clocks for homes and offices.",
-    image:
-      "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=800&q=80",
+    image: "/wallclock/1.jpeg",
+    // Saari 16 Real Clock Photos (1.jpeg se lekar 16.jpeg tak in public/wallclock/)
     items: [
-      {
-        name: "Classic Pendulum Wall Clock",
-        tag: "Living Room Bestseller",
-        image:
-          "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Minimalist Wooden Wall Clock",
-        tag: "Modern Interior",
-        image:
-          "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Double-Sided Vintage Station Clock",
-        tag: "Antique Brass Finish",
-        image:
-          "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Metallic Sunburst Designer Clock",
-        tag: "Housewarming Favorite",
-        image:
-          "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Retro Twin-Bell Table Clock",
-        tag: "Bedside & Study Desk",
-        image:
-          "https://images.unsplash.com/photo-1518281361980-b26bfd556770?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Rose-Gold Silent Sweep Clock",
-        tag: "Premium Gift Box",
-        image:
-          "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
-      },
+      { name: "Designer Wall Clock - Model 01", tag: "Living Room Accent", image: "/wallclock/1.jpeg" },
+      { name: "Designer Wall Clock - Model 02", tag: "Modern Interior", image: "/wallclock/2.jpeg" },
+      { name: "Designer Wall Clock - Model 03", tag: "Antique Finish", image: "/wallclock/3.jpeg" },
+      { name: "Designer Wall Clock - Model 04", tag: "Housewarming Special", image: "/wallclock/4.jpeg" },
+      { name: "Designer Wall Clock - Model 05", tag: "Bedside & Office", image: "/wallclock/5.jpeg" },
+      { name: "Designer Wall Clock - Model 06", tag: "Silent Sweep Movement", image: "/wallclock/6.jpeg" },
+      { name: "Designer Wall Clock - Model 07", tag: "Royal Pendulum Series", image: "/wallclock/7.jpeg" },
+      { name: "Designer Wall Clock - Model 08", tag: "Classic Round Clock", image: "/wallclock/8.jpeg" },
+      { name: "Designer Wall Clock - Model 09", tag: "Contemporary Decor", image: "/wallclock/9.jpeg" },
+      { name: "Designer Wall Clock - Model 10", tag: "Luxury Wall Accent", image: "/wallclock/10.jpeg" },
+      { name: "Designer Wall Clock - Model 11", tag: "Minimalist Style", image: "/wallclock/11.jpeg" },
+      { name: "Designer Wall Clock - Model 12", tag: "Vintage Station Look", image: "/wallclock/12.jpeg" },
+      { name: "Designer Wall Clock - Model 13", tag: "Drawing Room Special", image: "/wallclock/13.jpeg" },
+      { name: "Designer Wall Clock - Model 14", tag: "Bedroom Timepiece", image: "/wallclock/14.jpeg" },
+      { name: "Designer Wall Clock - Model 15", tag: "Decorative Dial Series", image: "/wallclock/15.jpeg" },
+      { name: "Designer Wall Clock - Model 16", tag: "Una Showroom Exclusive", image: "/wallclock/16.jpeg" },
     ],
   },
   {
@@ -217,48 +197,36 @@ export const GIFT_CATEGORIES = [
   {
     id: "scenery",
     title: "Wall Scenery & Frames",
-    subtitle: "Canvas Art, Paintings & Collages",
+    subtitle: "Canvas Art, Paintings & Frames",
     description:
-      "Framed nature landscapes, Vastu 7-running-horses art, LED backlit wall paintings, and multi-photo family collage frames.",
-    image:
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+      "Exclusive collection of 3D framed nature landscapes, auspicious Vastu wall frames, modern canvas art, and spiritual paintings available at our Una showroom.",
+    image: "/scenery/1.jpeg",
+    // Saari 24 Real Photos (1.jpeg se lekar 24.jpeg tak)
     items: [
-      {
-        name: "Framed Nature & Waterfall Landscape",
-        tag: "Living Room Statement",
-        image:
-          "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Vastu 7 Running Horses Gold Frame",
-        tag: "Auspicious Home & Office Gift",
-        image:
-          "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Family Memories Multi-Photo Collage",
-        tag: "Holds 6 to 12 Photos",
-        image:
-          "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Radha Krishna Textured Wall Art",
-        tag: "3D & Gold Foil Detailing",
-        image:
-          "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "3-Panel Modern Abstract Canvas Set",
-        tag: "Contemporary Decor",
-        image:
-          "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "LED Illuminated Wall Scenery Frame",
-        tag: "Built-in Warm Backlight",
-        image:
-          "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=80",
-      },
+      { name: "Premium Wall Scenery - Design 01", tag: "Living Room Accent", image: "/scenery/1.jpeg" },
+      { name: "Premium Wall Scenery - Design 02", tag: "Wall Art Frame", image: "/scenery/2.jpeg" },
+      { name: "Premium Wall Scenery - Design 03", tag: "Home & Office Decor", image: "/scenery/3.jpeg" },
+      { name: "Premium Wall Scenery - Design 04", tag: "Artistic Frame", image: "/scenery/4.jpeg" },
+      { name: "Premium Wall Scenery - Design 05", tag: "Modern Landscape", image: "/scenery/5.jpeg" },
+      { name: "Premium Wall Scenery - Design 06", tag: "Vastu & Temple Art", image: "/scenery/6.jpeg" },
+      { name: "Premium Wall Scenery - Design 07", tag: "Hall & Dining Decor", image: "/scenery/7.jpeg" },
+      { name: "Premium Wall Scenery - Design 08", tag: "Elegant Wall Frame", image: "/scenery/8.jpeg" },
+      { name: "Premium Wall Scenery - Design 09", tag: "New Home Gift", image: "/scenery/9.jpeg" },
+      { name: "Premium Wall Scenery - Design 10", tag: "Exclusive Artwork", image: "/scenery/10.jpeg" },
+      { name: "Premium Wall Scenery - Design 11", tag: "Framed Canvas Art", image: "/scenery/11.jpeg" },
+      { name: "Premium Wall Scenery - Design 12", tag: "Decorative Picture", image: "/scenery/12.jpeg" },
+      { name: "Premium Wall Scenery - Design 13", tag: "Spiritual & Divine", image: "/scenery/13.jpeg" },
+      { name: "Premium Wall Scenery - Design 14", tag: "Contemporary Frame", image: "/scenery/14.jpeg" },
+      { name: "Premium Wall Scenery - Design 15", tag: "Gold Border Series", image: "/scenery/15.jpeg" },
+      { name: "Premium Wall Scenery - Design 16", tag: "Nature & Waterfall", image: "/scenery/16.jpeg" },
+      { name: "Premium Wall Scenery - Design 17", tag: "Bedroom Gallery Art", image: "/scenery/17.jpeg" },
+      { name: "Premium Wall Scenery - Design 18", tag: "Housewarming Special", image: "/scenery/18.jpeg" },
+      { name: "Premium Wall Scenery - Design 19", tag: "Architectural Art", image: "/scenery/19.jpeg" },
+      { name: "Premium Wall Scenery - Design 20", tag: "Modern Minimalist", image: "/scenery/20.jpeg" },
+      { name: "Premium Wall Scenery - Design 21", tag: "3D Visual Frame", image: "/scenery/21.jpeg" },
+      { name: "Premium Wall Scenery - Design 22", tag: "Statement Art Piece", image: "/scenery/22.jpeg" },
+      { name: "Premium Wall Scenery - Design 23", tag: "Luxury Wall Accent", image: "/scenery/23.jpeg" },
+      { name: "Premium Wall Scenery - Design 24", tag: "Una Showroom Exclusive", image: "/scenery/24.jpeg" },
     ],
   },
   {
