@@ -106,45 +106,16 @@ export const GIFT_CATEGORIES = [
     subtitle: "Men's, Women's & Couple Sets",
     description:
       "Elegant analog, chronograph-style, leather-strap, and metallic bracelet watches along with boxed couple watch sets for weddings.",
-    image:
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+    image: "/watches/1.jpeg",
+    // Saari 7 Real Watch Photos (1.jpeg se lekar 7.jpeg tak in public/watches/)
     items: [
-      {
-        name: "Classic Brown Leather Men's Watch",
-        tag: "Formal & Everyday",
-        image:
-          "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "His & Hers Couple Watch Gift Set",
-        tag: "Wedding & Anniversary",
-        image:
-          "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Women's Rose-Gold Bracelet Watch",
-        tag: "Party & Festive Wear",
-        image:
-          "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Stainless Steel Chronograph Edition",
-        tag: "Luxury Gift Box",
-        image:
-          "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Matte Black Metallic Gents Watch",
-        tag: "Trending Design",
-        image:
-          "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Kids Sport & Cartoon Digital Watches",
-        tag: "Birthday Favorites",
-        image:
-          "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=800&q=80",
-      },
+      { name: "Classic Men's Wrist Watch - Model 01", tag: "Formal & Everyday", image: "/watches/1.jpeg" },
+      { name: "Elegant Wrist Watch - Model 02", tag: "Party & Festive", image: "/watches/2.jpeg" },
+      { name: "Premium Couple Watch Set - Model 03", tag: "Wedding & Anniversary", image: "/watches/3.jpeg" },
+      { name: "Luxury Chrono Style Watch - Model 04", tag: "Gift Box Included", image: "/watches/4.jpeg" },
+      { name: "Stylish Metallic Watch - Model 05", tag: "Youth Favorite", image: "/watches/5.jpeg" },
+      { name: "Executive Timepiece - Model 06", tag: "Leather Strap Edition", image: "/watches/6.jpeg" },
+      { name: "Designer Wrist Watch - Model 07", tag: "Una Showroom Exclusive", image: "/watches/7.jpeg" },
     ],
   },
   {
@@ -299,45 +270,15 @@ export const GIFT_CATEGORIES = [
     subtitle: "Men's Leather Wallets & Ladies Purses",
     description:
       "Classic bi-fold men's wallets, executive combo gift boxes (wallet, belt, pen, keychain), and embellished bridal/party clutches.",
-    image:
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
+    image: "/wallets/1.jpeg",
+    // Saari 6 Real Wallet Photos (1.jpeg se lekar 6.jpeg tak in public/wallets/)
     items: [
-      {
-        name: "Classic Tan Leather Bi-Fold Wallet",
-        tag: "Comes in Gift Box",
-        image:
-          "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "4-in-1 Men's Executive Combo Set",
-        tag: "Wallet + Belt + Pen + Keychain",
-        image:
-          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Embellished Bridal & Party Clutch",
-        tag: "Ladies Festive Collection",
-        image:
-          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Designer Women's Sling & Shoulder Bag",
-        tag: "Everyday Elegance",
-        image:
-          "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Slim RFID Card Holder & Zip Wallet",
-        tag: "Sleek Pocket Fit",
-        image:
-          "https://images.unsplash.com/photo-1606503825008-909a67e63c3d?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Premium Corporate Gift Hamper Box",
-        tag: "Custom Gifting",
-        image:
-          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
-      },
+      { name: "Classic Leather Wallet - Model 01", tag: "Comes in Gift Box", image: "/wallets/1.jpeg" },
+      { name: "Men's Executive Wallet - Model 02", tag: "Premium Finish", image: "/wallets/2.jpeg" },
+      { name: "Designer Clutch & Purse - Model 03", tag: "Ladies Festive Special", image: "/wallets/3.jpeg" },
+      { name: "Compact Card Holder Wallet - Model 04", tag: "Slim Pocket Fit", image: "/wallets/4.jpeg" },
+      { name: "Executive Gift Combo Set - Model 05", tag: "Bestseller Gift Item", image: "/wallets/5.jpeg" },
+      { name: "Luxury Leather Wallet - Model 06", tag: "Una Showroom Exclusive", image: "/wallets/6.jpeg" },
     ],
   },
   {
