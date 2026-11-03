@@ -331,31 +331,31 @@ export const GIFT_CATEGORIES = [
 ];
 
 // ============================================================================
-// SHOWROOM PHOTO GALLERY (Bottom Left Section)
+// SHOWROOM PHOTO GALLERY (Bottom Left Section - Real Showroom Photos)
 // ============================================================================
 export const GALLERY_PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=700&q=80",
-    caption: "Archies Greeting Cards & Gift Boxes",
+    src: "/showroom photo/1.jpeg",
+    caption: "Archies Showroom & Gift Display",
   },
   {
-    src: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=700&q=80",
-    caption: "Plush Teddy & Soft Toy Wall",
+    src: "/showroom photo/2.jpeg",
+    caption: "Greeting Cards & Gifting Counter",
   },
   {
-    src: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80",
-    caption: "Framed Scenery & Canvas Art",
+    src: "/showroom photo/3.jpeg",
+    caption: "Wall Decor & Timepieces Gallery",
   },
   {
-    src: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
-    caption: "Designer Lamps & Lighting Display",
+    src: "/showroom photo/4.jpeg",
+    caption: "Idols, Statues & Festive Collection",
   },
   {
-    src: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=700&q=80",
-    caption: "Watches & Leather Wallet Counter",
+    src: "/showroom photo/5.jpeg",
+    caption: "Watches, Wallets & Luxury Hampers",
   },
   {
-    src: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=700&q=80",
-    caption: "Artificial Flowers & Planter Pots",
+    src: "/showroom photo/6.jpeg",
+    caption: "Showroom Interior • Una (H.P.)",
   },
 ];
