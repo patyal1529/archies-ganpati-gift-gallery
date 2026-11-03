@@ -201,7 +201,7 @@ export const GIFT_CATEGORIES = [
     description:
       "Exclusive collection of 3D framed nature landscapes, auspicious Vastu wall frames, modern canvas art, and spiritual paintings available at our Una showroom.",
     image: "/scenery/1.jpeg",
-    // Saari 24 Real Photos (1.jpeg se lekar 24.jpeg tak)
+    // Saari 24 Real Photos (1.jpeg se lekar 24.jpeg tak in public/scenery/)
     items: [
       { name: "Premium Wall Scenery - Design 01", tag: "Living Room Accent", image: "/scenery/1.jpeg" },
       { name: "Premium Wall Scenery - Design 02", tag: "Wall Art Frame", image: "/scenery/2.jpeg" },
@@ -235,45 +235,15 @@ export const GIFT_CATEGORIES = [
     subtitle: "Spiritual Idols & Luxury Showpieces",
     description:
       "Finely crafted Lord Ganesha, Radha-Krishna, Meditating Buddha, Laughing Buddha, and modern resin figurines for home temples and gifting.",
-    image:
-      "https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?auto=format&fit=crop&w=800&q=80",
+    image: "/statue/1.jpeg",
+    // Saari 6 Real Statue Photos (1.jpeg se lekar 6.jpeg tak in public/statue/)
     items: [
-      {
-        name: "Lord Ganesha Marble & Gold Finish Idol",
-        tag: "Mandir & Car Dashboard",
-        image:
-          "https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Serene Meditating Buddha Figurine",
-        tag: "Zen Living Room Accent",
-        image:
-          "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Radha Krishna Hand-Painted Statue",
-        tag: "Wedding & Housewarming",
-        image:
-          "https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Romantic Couple Resin Sculpture",
-        tag: "Anniversary Bestseller",
-        image:
-          "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Golden Deer & Swan Pair Showpiece",
-        tag: "TV Console & Shelf Decor",
-        image:
-          "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=800&q=80",
-      },
-      {
-        name: "Feng Shui Laughing Buddha Statue",
-        tag: "Prosperity & Good Luck",
-        image:
-          "https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=800&q=80",
-      },
+      { name: "Divine Statue & Idol - Model 01", tag: "Marble & Gold Finish", image: "/statue/1.jpeg" },
+      { name: "Divine Statue & Idol - Model 02", tag: "Home Temple Special", image: "/statue/2.jpeg" },
+      { name: "Divine Statue & Idol - Model 03", tag: "Mandir & Dashboard", image: "/statue/3.jpeg" },
+      { name: "Divine Statue & Idol - Model 04", tag: "Auspicious Gift", image: "/statue/4.jpeg" },
+      { name: "Divine Statue & Idol - Model 05", tag: "Hand-Painted Finish", image: "/statue/5.jpeg" },
+      { name: "Divine Statue & Idol - Model 06", tag: "Una Showroom Exclusive", image: "/statue/6.jpeg" },
     ],
   },
   {
